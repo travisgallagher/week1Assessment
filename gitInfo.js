@@ -10,6 +10,9 @@
 */
 
 //CODE HERE
+const gitDefinition = "Git is a program that acts as version control. It allows you to save a project as you go, and you can access the previous files if you have made a mistake.";
+
+
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +21,8 @@
 */
 
 //CODE HERE
+const gitHubDefinition = "Github is an online website that lets you save your repositories. It will push all your versions to be online, and you can access your code on the internet. It makes it very helpful when working in teams, because everyone can see the different versions and access the code.";
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +31,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = "Git init allows you to initiate a repository on your computer."; 
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +40,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = "Git clone is a way to copy an existing file/repository."; 
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +49,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = "Git status is a way to see information about your repository. It will tell you if you have committed a file, and how many changes have been made. "; 
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +61,10 @@
 */
 
 //CODE HERE
+const gitAddDefinition = "Git add will at your files to git, and allow them to be tracked."; 
+
+let gitAddCode = `git add .`; 
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +76,9 @@
 */
 
 //CODE HERE
+const gitCommitDefinition = "Git commit is a way to save your changes and add an explanation of what you did from the last commit until now.";
+
+let gitCommitCode = `git commit -m "initial commit"`; 
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +88,5 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "Git push will push your code online to github. As long as you have done the initalize step and copy and pasted the push from github, `git push` will push that code online.";
+ 
